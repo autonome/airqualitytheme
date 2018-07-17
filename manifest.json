@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Air Quality Theme",
+  "description": "Watch your theme change color with the quality of the air where you live - greener is better, redder is deader.",
+  "version": "1.0.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+		"theme",
+    "geolocation"
+  ]
+}
